@@ -1,0 +1,28 @@
+{
+  "name": "addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "start:hot": "wp-scripts start --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.19.0",
+    "webpack": "^5.93.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.16.4",
+    "mammoth": "^1.8.0",
+    "process": "^0.11.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "util": "^0.12.5"
+  }
+}
